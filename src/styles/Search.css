@@ -1,0 +1,56 @@
+.input-artist-after{
+    font-size: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+    padding: .6rem .8rem;
+    border: none;
+}
+
+.input-artist{
+    font-size: 20px;
+    width: 250px;
+    box-sizing: border-box;
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+    padding: .6rem .8rem;
+    border: none;
+}
+
+.button-search {
+  background-color: rgb(49, 49, 46);
+  color: white;
+  border: 2px solid rgb(49, 49, 46);
+  cursor: pointer;
+  height: 48px;
+  width: 60px;
+  padding: .3rem;
+  border-radius: 20px;
+  margin-left: 7px;
+}
+
+.button-search:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.results-text-div {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    justify-items: center;
+    scroll-behavior: smooth;
+    padding-right: 15px;
+}
+
+.no-album {
+   margin-left: 1095px;
+  
+    width: 200px;
+}

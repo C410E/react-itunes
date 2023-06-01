@@ -1,0 +1,26 @@
+
+.albumCard-image {
+    width: 160px;
+    border-radius: 4%;
+    
+}
+
+.album {
+    width: 150px;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.albumCard-music-name {
+   text-decoration: none;
+  color: rgb(155, 154, 154);
+}
+
+.albumCard-music-name:hover {
+    color:   #ea4cc0;
+}
+
+.albumCard-artist-name {
+    text-decoration: none;
+}
+
